@@ -24,7 +24,7 @@ function CardEchipa ({nume, rol, email, telefon, imagine,descriere}) {
                 <p><strong>Telefon:</strong> {telefon}</p>
                 {descriere &&(
                     <div className="descriere membru">
-                    <h3>Despre:</h3>
+                    <h3>Despre</h3>
                     <p>{descriere}</p>
                     </div>
                 )}
