@@ -1,0 +1,92 @@
+/* Rezumat Concepte Implementate */
+.summary-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px 0 32px 0;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+  padding: 32px 32px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.summary-section h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+.concepts-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.concept-card {
+  background: #f7f7f7;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  padding: 24px 18px;
+  min-width: 180px;
+  max-width: 220px;
+  flex: 1 1 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.concept-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+  color: #1976d2;
+}
+.concept-card p {
+  margin: 0;
+  color: #444;
+  font-size: 1rem;
+}
+.App-container {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+.App-container.dark {
+  background-color: #1d1414 !important;
+  color: #ffffff !important;
+}
+
+body.dark {
+  background-color: #1d1414 !important;
+  color: #ffffff !important;
+}
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.right-buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+.tema-dark .app-header {
+  background-color: #1c1f26;
+  color: #61dafb;
+}
+
